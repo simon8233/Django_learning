@@ -1,0 +1,23 @@
+<html>
+	<HEAD>MTK Calculator</HEAD>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<TITLE>MTK</TITLE>
+	<BODY>
+		</br>
+		中文顯示:)
+		</br>					
+			輸入 1st number: <input type="text" id="first" value=""></br>
+			輸入 2nd number: <input type="text" id="second" value=""></br>		
+		<button OnClick="link()">cal</button></br>
+	
+	<script language="javascript" type="text/javascript">				
+		function link(){
+			var first = document.getElementById("first").value;
+			var second = document.getElementById("second").value;
+			location.href="../"+first+"/math/"+second
+		}
+	</script>
+	</BODY>
+	
+
+</html>
